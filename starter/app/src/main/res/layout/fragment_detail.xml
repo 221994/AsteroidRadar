@@ -8,6 +8,9 @@
         <variable
             name="asteroid"
             type="com.udacity.asteroidradar.Asteroid" />
+        <variable
+            name="test"
+            type="com.udacity.asteroidradar.BindingAdaptersKt" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -94,7 +97,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="16dp"
-                        app:srcCompat="@drawable/ic_help_circle" />
+                        app:srcCompat="@drawable/ic_help_circle"
+                        android:contentDescription="@"/>
 
                 </LinearLayout>
 
